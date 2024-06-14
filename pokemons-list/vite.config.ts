@@ -11,7 +11,7 @@ export default defineConfig({
       exposes: {
         "./PokemonList": "./src/components/PokemonList",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "@mui/x-data-grid", "@emotion/styled"],
     }),
   ],
   build: {

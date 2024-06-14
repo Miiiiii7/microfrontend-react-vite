@@ -10,7 +10,7 @@ export default defineConfig({
       remotes: {
         pokemonList: "http://localhost:5173/assets/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "@mui/x-data-grid", "@emotion/styled"],
     }),
   ],
   build: {
